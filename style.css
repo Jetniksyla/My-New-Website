@@ -1,0 +1,104 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+
+}
+
+.myList {
+  color: white;
+  width: 100%;
+  text-align: end;
+  margin: 0;
+  padding: 15px;
+  background-color: #33634A;
+  padding-left: 0px;
+  border-bottom: 10px solid #ffc2a7e3;
+}
+
+#Github {
+  display: inline;
+  padding: 10px;
+}
+
+#Portfolio {
+  display: inline;
+  padding: 10px;
+}
+
+#Contact {
+  display: inline;
+  padding: 10px;
+}
+
+.headTitle {
+  text-align: center;
+  color: #5b4242;
+}
+
+.image1 {
+  margin: auto;
+  display: block;
+}
+
+.Pharagraph {
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+.myContact {
+  text-align: center;
+  color: #5b4242;
+}
+
+.padding {
+  padding-bottom: 20px
+}
+
+.footer {
+  margin: auto;
+  width: 100%;
+  text-align: center;
+  background-color: #33634A;
+  padding: 10px;
+  color: white;
+  border-bottom: 10px solid #3b3838;
+}
+
+#contact-form {
+  display: flex;
+  justify-content: center;
+}
+
+#simpleForm {
+  border: solid 2px #c06136b3;
+  display: block;
+  margin: auto;
+  width: 35%;
+  box-sizing: border-box;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  background-color: #deb6a4b3;
+}
+
+
+.backgroundColor {
+  background-color: #deb6a4b3;
+  padding-top: 5px;
+  padding-bottom: 20px;
+}
+
+#email,
+#name {
+  width: 75%;
+  color: #453333;
+}
+
+.naLodhe {
+  padding-inline: 35px;
+  padding-block: 10px;
+  background: #4a3636;
+  color: white;
+}
