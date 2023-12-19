@@ -6,19 +6,23 @@ Welcome to "My New Website" – a simple webpage created for beginners to explor
 
 ## Navigation Menu:
 
-* Links to GitHub, Portfolio, and Contact.
-* Styled with a consistent color scheme.
+- Links to GitHub, Portfolio, and Contact.
+- Styled with a consistent color scheme.
 
 ## Main Content Section:
 
-* Includes a main heading, image, and paragraph.
-* Stylishly presented with centered alignment.
+- Includes a main heading, image, and paragraph.
+- Stylishly presented with centered alignment.
 
 ## Contact Section:
 
-* Features a contact form with fields for name and email.
-* Styled with a background color for emphasis.
+- Features a contact form with fields for name and email.
+- Styled with a background color for emphasis.
 
 ## Footer:
 
-* Displays a copyright notice.
+- Displays a copyright notice.
+
+## Project Screenshot
+
+![Alt text](my_website.png)
