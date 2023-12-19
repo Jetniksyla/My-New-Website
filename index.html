@@ -1,35 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <!-- Metadata -->
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="./assets/reset.css" />
+    <link rel="stylesheet" href="./assets/style.css" />
+
+    <!-- Page Title -->
     <title>My New Website</title>
   </head>
   <body>
+    <!-- Header Section -->
     <header>
+      <!-- Navigation Menu -->
       <nav>
+        <!-- List of Navigation Links -->
         <ul class="myList">
-            <li id="Github"><a href="https://github.com/" target="_blank">Github</a></li>
-            <li id="Portfolio"><a href="Mini-Project/mini-project/index.html#1" target="_blank">Portfolio</a></li>
-            <li id="Contact"><a href="https://gmail.com" target="_blank">Contact</a></li>
+          <li id="Github">
+            <a href="https://github.com/" target="_blank">Github</a>
+          </li>
+          <li id="Portfolio">
+            <a href="Mini-Project/mini-project/index.html#1" target="_blank"
+              >Portfolio</a
+            >
+          </li>
+          <li id="Contact">
+            <a href="https://gmail.com" target="_blank">Contact</a>
+          </li>
         </ul>
-    </nav>
+      </nav>
     </header>
 
+    <!-- Main Content Section -->
     <section>
+      <!-- Main Heading -->
       <h1 class="headTitle">My New Website</h1>
-      <img class="image1" src="image-1.png" alt="CommingSoon" />
-      <p class="Pharagraph">
+
+      <!-- Image -->
+      <img class="image1" src="./assets/image-1.png" alt="Coming Soon" />
+
+      <!-- Paragraph -->
+      <p class="Paragraph">
         Lorem ipsum dolor sit amet consectetur adipisicing elit.
       </p>
     </section>
 
-    <!-- color #deb6a4b3 -->
-
+    <!-- Background Color Section -->
     <section class="backgroundColor">
+      <!-- Subheading -->
       <div><h1 class="myContact">Contact Me</h1></div>
-      <form id="simpleForm" action="https://www.google.com/"  target="_blank" method="page">
+
+      <!-- Contact Form -->
+      <form
+        id="simpleForm"
+        action="https://www.google.com/"
+        target="_blank"
+        method="page"
+      >
         <label for="name">Name:</label>
         <input type="text" id="name" name="name" />
         <br />
@@ -40,8 +70,12 @@
         <button class="butTon" type="submit">Send</button>
       </form>
     </section>
-
-    <footer class="footer">@2023 My New Website Production</footer>
-    <!-- Color #33634A -->
   </body>
+  <!-- Footer Section -->
+  <footer class="footer">
+    <!-- Copyright Notice -->
+    @2023 My New Website Production
+  </footer>
+  <!-- Color #33634A -->
+
 </html>

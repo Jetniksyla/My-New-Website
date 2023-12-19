@@ -1,67 +1,69 @@
-body,
-html {
+/* Resetting default styles for the entire page */
+body {
   margin: 0;
   padding: 0;
   font-family: sans-serif;
-
+  min-height: 100vh;
 }
 
+
+/* Styling for all links to have white color, no underline, and a pointer cursor */
 a:-webkit-any-link {
   color: white;
   cursor: pointer;
   text-decoration: none;
 }
 
+/* Navigation Styles */
 .myList {
   color: white;
   width: 100%;
   text-align: end;
   margin: 0;
-  padding: 15px;
+  padding: 15px 0;
   background-color: #33634A;
   padding-left: 0px;
   border-bottom: 10px solid #ffc2a7e3;
 }
 
-#Github {
-  display: inline;
-  padding: 10px;
-}
-
-#Portfolio {
-  display: inline;
-  padding: 10px;
-}
-
+/* Navigation Link Styles */
+#Github,
+#Portfolio,
 #Contact {
   display: inline;
   padding: 10px;
 }
 
+/* Main Title Styles */
 .headTitle {
   text-align: center;
   color: #5b4242;
 }
 
+/* Image Styles */
 .image1 {
   margin: auto;
   display: block;
 }
 
-.Pharagraph {
+/* Paragraph Styles */
+.Paragraph {
   text-align: center;
   padding-bottom: 10px;
 }
 
+/* Contact Section Styles */
 .myContact {
   text-align: center;
   color: #5b4242;
 }
 
+/* Padding Styles */
 .padding {
-  padding-bottom: 20px
+  padding-bottom: 20px;
 }
 
+/* Footer Styles */
 .footer {
   margin: auto;
   width: 100%;
@@ -72,6 +74,7 @@ a:-webkit-any-link {
   border-bottom: 10px solid #3b3838;
 }
 
+/* Contact Form Styles */
 #contact-form {
   display: flex;
   justify-content: center;
@@ -89,22 +92,24 @@ a:-webkit-any-link {
   background-color: #deb6a4b3;
 }
 
-
+/* Background Color Section Styles */
 .backgroundColor {
   background-color: #deb6a4b3;
   padding-top: 5px;
   padding-bottom: 20px;
 }
 
+/* Input Styles */
 #email,
 #name {
   width: 75%;
   color: #453333;
+  margin: 1%;
 }
 
+/* Button Styles */
 .butTon {
-  padding-inline: 35px;
-  padding-block: 10px;
+  padding: 10px 35px;
   background: #4a3636;
   color: white;
   cursor: pointer;
