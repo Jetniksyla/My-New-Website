@@ -1,6 +1,6 @@
 # My New Website
 
-## Welcome to "My New Website" – a simple webpage created for beginners to explore HTML and CSS. This project serves as a starting point for those learning web development basics.
+Welcome to "My New Website" – a simple webpage created for beginners to explore HTML and CSS. This project serves as a starting point for those learning web development basics.
 
 # Features
 
